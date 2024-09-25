@@ -37,7 +37,7 @@ You can customize the training configuration, such as `batch_size`, `learning_ra
 
 - `train_model.py`: Main script for training the LLM. This includes data loading, model initialization, and the training loop.
 - `RedditVocab.txt`: The vocabulary file generated from the training corpus.
-- `best921.pkl`: A sample checkpoint of the best-performing model.
+- `best.pkl`: A sample checkpoint of the best-performing model.
   
 Feel free to tweak the script to fit your dataset or desired configuration.
 
@@ -45,8 +45,15 @@ Feel free to tweak the script to fit your dataset or desired configuration.
 
 During training, the model is automatically saved when an improvement in validation loss is detected. You can load a saved model by uncommenting the provided section in the script and specifying the appropriate path to the model file.
 
+## Future
+Soon I plan on fine-tuning the model to a code data set and to be able to output better responses. I have large ambitions of helping the common man build an LLM to suit his needs on limited hardware. I believe AI is for all and this is my first step in helping with that goal. I know I am not the first to build a smaller model and certainly not the last but it is the start of a long journey. 
+
+I also plan on writing a few papers and self-publishing unless any lab has an opening and wants to reach out! if so look below, if not you'll see my paper someday some way!
+
 ## Contact
 
 If you have any questions or feedback, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/tyler-blalock/).
 
 I hope to continue refining and expanding this model and look forward to collaborating with others in the LLM space.
+
+Have a great day reader!
